@@ -1,21 +1,22 @@
-
-.firstCaption{
-   margin-top: 300px; 
-   margin-bottom: 40px;
-}
-.description{
-   width: 700px;
-   align-items: center;
-   margin: auto;
-   width: 50%;
+.firstCaption {
+    margin-top: 300px;
+    margin-bottom: 40px;
 }
 
-body{
+.description {
+    width: 700px;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+body {
     width: 100%;
     height: auto;
     background-color: #ffffff;
 }
-.allpackages{
+
+.allpackages {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -23,7 +24,8 @@ body{
     padding: 2rem;
 
 }
-.package{
+
+.package {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,33 +34,37 @@ body{
     height: auto;
     background-color: rgb(181, 196, 240);
     border-radius: 38px;
-    box-shadow: 0 5px 14px rgba(0,0, 0, 0,25) , 0 5px 5px rgba(0,0, 0, 0.22) ;
-    padding:2rem ;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0, 25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    padding: 2rem;
     margin: 1rem;
     transition: all 0.2s ease-in;
     z-index: 100;
-   
+
 }
 
-.package:hover{
+.package:hover {
     transform: scale(1.1);
     margin-bottom: 40px;
 }
-.packageheader{
+
+.packageheader {
     margin: 1rem;
     text-align: center;
 }
-.package:hover .packageheader> h1{
-   transform: scale(1.1);
-   color: #ffffff;
-   letter-spacing: 2px;
+
+.package:hover .packageheader>h1 {
+    transform: scale(1.1);
+    color: #ffffff;
+    letter-spacing: 2px;
 }
-.packageheader >img {
+
+.packageheader>img {
     width: 200px;
     display: block;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
-.details{
+
+.details {
     width: 100%;
 
 }
@@ -66,60 +72,70 @@ body{
 .check {
     color: #9affb5;
 }
+
 .nocheck {
     color: #ff9a9a;
 }
 
-.details > p{
+.details>p {
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.price{
+
+.price {
     display: flex;
     align-items: flex-start;
     margin: 1rem;
 }
-.price > p {
+
+.price>p {
     font-size: 3rem;
     font-weight: 800;
 }
-.price > p > sup,
-.price > p > sub{
+
+.price>p>sup,
+.price>p>sub {
     font-size: 1rem;
 }
-.package-button{
+
+.package-button {
     padding: 0.6rem 3rem;
     /*border: 2px solid #000000;*/
     border: 2px solid #767676;
     background-color: #202020;
     color: #d5d5d5;
-    border-radius:40px ;
+    border-radius: 40px;
     /*cursor: pointer;*/
-   
-}
-.package-button:hover{
-   border: 2px solid #ffffff;
-   background-color: transparent;
-   color: #000000;
-   font-weight: 800;
 
 }
 
-.bronze{
-    background-color: rgba(187, 143, 61,0.25);
-   
+.package-button:hover {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #000000;
+    font-weight: 800;
+
 }
-.silver{
-    background-color: rgba(150, 150, 150,0.5);
-   
+
+.bronze {
+    background-color: rgba(187, 143, 61, 0.25);
+
 }
-.gold{
-    background-color: rgba(255, 200, 62,0.5);
-  
+
+.silver {
+    background-color: rgba(150, 150, 150, 0.5);
+
 }
-.notes{
+
+.gold {
+    background-color: rgba(255, 200, 62, 0.5);
+
+}
+
+.notes {
     margin-bottom: 50px;
 }
+
 /*.part2{
     width: 100%;
     height: 100vh;
@@ -129,4 +145,3 @@ body{
     
 
 }*/
-

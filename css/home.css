@@ -1,10 +1,10 @@
-
-section{
+section {
     height: 100vh;
 }
-.section1{
+
+.section1 {
     margin-top: 21em;
-	padding: 80px 18%;
+    padding: 80px 18%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -14,10 +14,12 @@ section{
     flex-direction: column;
     position: relative;
 }
-.divspacin{
+
+.divspacin {
     margin-bottom: 30em;
 }
-.section1 button{
+
+.section1 button {
     padding: 15px;
     background: #0A8080;
     border: none;
@@ -27,49 +29,56 @@ section{
     outline: none;
     width: 200px;
     color: #fff;
-  
+
 }
-.firstitem h1{
+
+.firstitem h1 {
     font-size: xx-large;
 }
-.section1 img{
+
+.section1 img {
     bottom: -2px;
 }
-.section2{ 
+
+.section2 {
     margin: 35px;
-	padding: 80px 18%;
+    padding: 80px 18%;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgb(255, 245, 237,0.5);
+    background-color: rgb(255, 245, 237, 0.5);
 }
-.sec2-title h1{
-    font-size:xx-large;
+
+.sec2-title h1 {
+    font-size: xx-large;
 }
+
 .sec2-title {
-   color: #000000;
-   margin-top: -50px;
-   font-weight: 300;
-   align-items: center;
-   position: top;
-   position: relative;
+    color: #000000;
+    margin-top: -50px;
+    font-weight: 300;
+    align-items: center;
+    position: top;
+    position: relative;
 }
-.allblock{
+
+.allblock {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.bolock1{
-    display: flex;
-}
-.bolock2{
-    display: flex;
-}
-.bolock3{
+
+.bolock1 {
     display: flex;
 }
 
+.bolock2 {
+    display: flex;
+}
 
+.bolock3 {
+    display: flex;
+}
