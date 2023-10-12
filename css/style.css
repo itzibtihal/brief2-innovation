@@ -5,11 +5,15 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: "b612";
 	text-decoration: none;
 	list-style: none;
 	scroll-behavior: smooth;
 }
+
+:root {
+    --mainColor: #fff5ed;
+  }
 :root{
 	--bg-color: #fff;
 	--text-color: #221314;
@@ -92,7 +96,7 @@ header{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(200px, auto));
     gap: 3.5rem;
-    background: #f5f2f2;
+    background: #efefef;
     left: 0;
     right: 0;
     bottom: 0;

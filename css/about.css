@@ -56,3 +56,8 @@
 /*.icones:hover{
     transform: scale(1.5);
 }*/
+.sevices-caption{
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
