@@ -1,0 +1,45 @@
+.caption{
+   
+    padding-top: 60px;
+    margin: auto;
+     /* MARGIN TOP*/
+     margin-top: 250px;
+    line-height :50px ;
+  
+}
+    
+
+
+.title{
+    font-weight:900;
+    font-size:xx-large;
+    font-family: 'B612', sans-serif;
+    margin-bottom: 20px;
+}
+.cap{
+    margin-bottom:  30px; ;
+}
+
+.container{
+    text-align: center;
+}
+.allteam{
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team{
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+
+}

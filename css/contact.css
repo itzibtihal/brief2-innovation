@@ -1,0 +1,80 @@
+
+
+
+
+.Contactsection{
+
+    width: 100%;
+    height: 100vh;
+    /*background: linear-gradient(to right, #90acdf,#6294df,#1257a5);*/
+    background: #abe9ef4c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-card{
+    margin-top: 220px;
+    width: 800px;
+    height: 74vh;
+    background-color: rgba(181, 180, 180, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.message-card::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(203, 202, 202, 0.5);
+      transform: rotate(-5deg) ;
+      z-index: -1;
+}
+
+.message-card img
+{
+    margin-bottom: 15px;
+
+}
+
+.message-card h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+form{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color:  rgb(255, 255, 255,0.5);
+    width: 450px;
+}
+
+form button{
+    padding: 15px;
+    background: linear-gradient(to left, #7ddce1,#7cced3,#79aee0);
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    color: #fff;
+}
