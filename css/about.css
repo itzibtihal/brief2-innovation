@@ -16,20 +16,18 @@
     font-family: 'B612', sans-serif;
     margin-bottom: 20px;
 }
-.cap{
-    margin-bottom:  30px; ;
-}
+
 
 .container{
     text-align: center;
 }
 .allteam{
-    max-width: 1200px;
+    
     margin: auto;
     padding: 48px 0;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 .team{
     padding: 22px;
@@ -39,7 +37,22 @@
     box-sizing: border-box;
 }
 .team img{
-    width: 250px;
-    height: 250px;
-
+    width: 350px;
+    height: 350px;
 }
+.name{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.descp{
+    font-style: italic;
+    color: #888;
+}
+.team4{
+    opacity: 0.5;
+}
+/*.icones:hover{
+    transform: scale(1.5);
+}*/
