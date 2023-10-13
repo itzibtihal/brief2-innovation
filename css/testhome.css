@@ -1,7 +1,8 @@
+
 .section1 {
   margin-top: 150px;
   text-align: center;
-  padding: 100px 40px 10px;
+  
 }
 
 .section2 img {
@@ -65,6 +66,9 @@ section.section2 .container {
 
 section.section2 .container .title {
   margin-top: 100px;
+}
+section .section2{
+  width: 100%;
 }
 
 section.section3 {
@@ -192,7 +196,6 @@ section.section3 .container div div p {
 
 .section6 .main .form div.subscribe input[type="text"] {
   background-color: #d4dae2;
-
   width: 280px;
   height: 45px;
   border: none;
@@ -284,6 +287,7 @@ section .section7 .allclas .cla2 .cla21 {
   justify-content: space-evenly;
 
 }
+
 
 
 @media (max-width: 880px) {
