@@ -187,15 +187,17 @@ section.section3 .container div div p {
 
 .section6 .main .form div h1 {
   font-size: xx-large;
+  margin-top: 70px;
 }
 
 .section6 .main .form div.subscribe input[type="text"] {
   background-color: #d4dae2;
-  margin-top: 40px;
+
   width: 280px;
   height: 45px;
   border: none;
   border-radius: 5px;
+  margin-top: 80px;
 }
 
 .section6 .main .form div.subscribe input[type="text"]:focus {
@@ -220,6 +222,67 @@ section.section3 .container div div p {
 
 .section6 .main .form div.subscribe label {
   color: #d4dae2;
+}
+
+.section7 {
+  margin-top: 70px;
+}
+
+.section7 .title {
+  font-size: xx-large;
+
+
+}
+
+section .section7 .caption .title {
+  color: #0F2137;
+  font-size: 20px;
+  font-family: B612;
+  font-weight: 700;
+  line-height: 35px;
+  word-wrap: break-word
+}
+
+section .section7 .allclas .cla2 .cla21 {
+  background-color: antiquewhite;
+  margin-left: 2rem;
+  color: #0F2137;
+  font-size: 20px;
+  font-family: B612;
+  font-weight: 700;
+  line-height: 35px;
+  word-wrap: break-word
+}
+
+.section7 .allclas {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.section7 .allclas .cla1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.section7 .allclas .cla2 {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.section7 .allclas .cla3 {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
 }
 
 
