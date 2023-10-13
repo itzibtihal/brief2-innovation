@@ -145,3 +145,26 @@ body {
     
 
 }*/
+@media screen and (min-width: 769px) {
+    /* Adjust styles for screens wider than 768px here */
+
+    .description {
+        max-width: 900px; /* Wider description on larger screens */
+    }
+
+    .allpackages {
+        justify-content: center; /* Center packages on larger screens */
+    }
+
+    .package {
+        width: calc(25% - 20px); /* 4-column layout on larger screens */
+    }
+
+    .price {
+        margin: 20px; /* More spacing for prices on larger screens */
+    }
+
+    .notes {
+        margin-bottom: 40px; /* More margin for notes on larger screens */
+}
+}
