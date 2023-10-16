@@ -146,10 +146,10 @@ body {
 
 }*/
 @media screen and (min-width: 769px) {
-    /* Adjust styles for screens wider than 768px here */
+  
 
     .description {
-        max-width: 900px; /* Wider description on larger screens */
+        max-width: 900px; 
     }
 
     .allpackages {

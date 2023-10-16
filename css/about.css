@@ -24,11 +24,10 @@
 }
 
 .allteam {
-
     margin: auto;
     padding: 48px 0;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
