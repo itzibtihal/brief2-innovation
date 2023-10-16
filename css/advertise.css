@@ -1,5 +1,5 @@
 .firstCaption {
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 40px;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .package {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
     width: 420px;
@@ -153,18 +153,18 @@ body {
     }
 
     .allpackages {
-        justify-content: center; /* Center packages on larger screens */
+        justify-content: center; 
     }
 
     .package {
-        width: calc(25% - 20px); /* 4-column layout on larger screens */
+        width: calc(25% - 20px); 
     }
 
     .price {
-        margin: 20px; /* More spacing for prices on larger screens */
+        margin: 20px; 
     }
 
     .notes {
-        margin-bottom: 40px; /* More margin for notes on larger screens */
+        margin-bottom: 40px; 
 }
 }

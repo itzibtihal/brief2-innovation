@@ -233,8 +233,6 @@ section.section3 .container div div p {
 
 .section7 .title {
   font-size: xx-large;
-
-
 }
 
 section .section7 .caption .title {
@@ -291,23 +289,23 @@ section .section7 .allclas .cla2 .cla21 {
 
 
 @media (max-width: 880px) {
-  section.section1 {
+  .section1 {
     padding: 70px 40px 10px;
   }
 
-  section.section1 .main img {
+  .section1 .main img {
     max-width: 100%;
     margin-bottom: 30px;
   }
 
-  section.section2 {
+  .section2 {
     height: 50vh;
     background-color: var(--mainColor);
     margin: -2%;
     margin-top: 150px;
   }
 
-  section.section2 .container img {
+  .section2 .container img {
     width: 70%;
     height: auto;
     margin-bottom: 60px;
@@ -316,19 +314,19 @@ section .section7 .allclas .cla2 .cla21 {
     top: -30%;
   }
 
-  section.section3 {
+  .section3 {
     height: fit-content;
     background-color: var(--mainColor);
     margin: 0 -2%;
   }
 
-  section.section3 .container div {
+  .section3 .container div {
     padding-left: 0px;
     padding-right: 0px;
     gap: 2px;
   }
 
-  section.section3 .container {
+  .section3 .container {
     padding-top: 50px;
   }
 
